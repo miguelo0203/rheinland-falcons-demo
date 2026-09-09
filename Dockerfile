@@ -9,6 +9,7 @@ FROM python:3.11-slim
 # ── Environment ──────────────────────────────────────────────────────────────
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
+    PORT=10000 \
     STREAMLIT_SERVER_ADDRESS=0.0.0.0 \
     STREAMLIT_SERVER_HEADLESS=true \
     STREAMLIT_SERVER_ENABLE_CORS=false \
@@ -61,11 +62,7 @@ RUN groupadd -r appuser && useradd -r -g appuser -d /app -s /bin/bash appuser &&
 USER appuser
 
 # ── Network ──────────────────────────────────────────────────────────────────
-EXPOSE 8501 10000
-
-# ── Healthcheck ──────────────────────────────────────────────────────────────
-HEALTHCHECK --interval=15s --timeout=5s --start-period=10s --retries=3 \
-    CMD curl --fail http://127.0.0.1:${PORT:-${STREAMLIT_SERVER_PORT:-8501}}/_stcore/health || exit 1
+EXPOSE 10000
 
 # ── Entrypoint ───────────────────────────────────────────────────────────────
-CMD ["sh", "-c", "exec python -m streamlit run app/main.py --server.port=${PORT:-${STREAMLIT_SERVER_PORT:-8501}} --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false --server.enableWebsocketCompression=false --browser.gatherUsageStats=false"]
+CMD ["sh", "-c", "exec streamlit run app/main.py --server.address=0.0.0.0 --server.port=$PORT --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false --server.enableWebsocketCompression=false --browser.gatherUsageStats=false"]
