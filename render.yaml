@@ -6,14 +6,19 @@ services:
     region: frankfurt
     dockerfilePath: ./Dockerfile
     dockerContext: .
+    healthCheckPath: /_stcore/health
     envVars:
       - key: DEMO_AUTH_PASSWORD
         value: "demotool"
       - key: PYTHONUNBUFFERED
         value: "1"
-      - key: STREAMLIT_SERVER_PORT
+      - key: PORT
         value: "8501"
       - key: STREAMLIT_SERVER_ADDRESS
         value: "0.0.0.0"
       - key: STREAMLIT_SERVER_HEADLESS
         value: "true"
+      - key: STREAMLIT_SERVER_ENABLE_CORS
+        value: "false"
+      - key: STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION
+        value: "false"
