@@ -3,7 +3,7 @@ services:
     name: rheinland-falcons-demo
     runtime: docker
     plan: free
-    region: frankfurt
+    region: oregon
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /_stcore/health
