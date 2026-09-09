@@ -13,6 +13,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     STREAMLIT_SERVER_HEADLESS=true \
     STREAMLIT_SERVER_ENABLE_CORS=false \
     STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION=false \
+    STREAMLIT_SERVER_ENABLE_WEBSOCKET_COMPRESSION=false \
     STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
 
 # ── System dependencies ─────────────────────────────────────────────────────
@@ -22,7 +23,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     libgl1 \
     libglib2.0-0 \
-    socat \
     && rm -rf /var/lib/apt/lists/*
 
 # ── Working directory ────────────────────────────────────────────────────────
@@ -65,7 +65,7 @@ EXPOSE 8501 10000
 
 # ── Healthcheck ──────────────────────────────────────────────────────────────
 HEALTHCHECK --interval=15s --timeout=5s --start-period=10s --retries=3 \
-    CMD curl --fail http://127.0.0.1:8501/_stcore/health || exit 1
+    CMD curl --fail http://127.0.0.1:${PORT:-${STREAMLIT_SERVER_PORT:-8501}}/_stcore/health || exit 1
 
 # ── Entrypoint ───────────────────────────────────────────────────────────────
-CMD ["sh", "-c", "STREAMLIT_PORT=${STREAMLIT_SERVER_PORT:-8501}; if [ -n \"$PORT\" ] && [ \"$PORT\" != \"$STREAMLIT_PORT\" ]; then socat TCP-LISTEN:$PORT,fork,reuseaddr TCP:127.0.0.1:$STREAMLIT_PORT & fi; if [ \"$PORT\" != \"10000\" ] && [ \"$STREAMLIT_PORT\" != \"10000\" ]; then socat TCP-LISTEN:10000,fork,reuseaddr TCP:127.0.0.1:$STREAMLIT_PORT & fi; exec python -m streamlit run app/main.py --server.port=$STREAMLIT_PORT --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false --browser.gatherUsageStats=false"]
+CMD ["sh", "-c", "exec python -m streamlit run app/main.py --server.port=${PORT:-${STREAMLIT_SERVER_PORT:-8501}} --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false --server.enableWebsocketCompression=false --browser.gatherUsageStats=false"]
