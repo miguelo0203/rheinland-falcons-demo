@@ -54,17 +54,17 @@ RUN echo 'auth_password = "demotool"' > .streamlit/secrets.toml && \
     echo 'environment = "demo"'      >> .streamlit/secrets.toml
 
 # ── Security: non-root user ─────────────────────────────────────────────────
-RUN groupadd -r appuser && useradd -r -g appuser -d /app -s /sbin/nologin appuser && \
+RUN groupadd -r appuser && useradd -r -g appuser -d /app -s /bin/bash appuser && \
     chown -R appuser:appuser /app
 
 USER appuser
 
 # ── Network ──────────────────────────────────────────────────────────────────
-EXPOSE 8501
+EXPOSE 8501 10000
 
 # ── Healthcheck ──────────────────────────────────────────────────────────────
 HEALTHCHECK --interval=15s --timeout=5s --start-period=10s --retries=3 \
     CMD curl --fail http://127.0.0.1:${PORT:-8501}/_stcore/health || exit 1
 
 # ── Entrypoint ───────────────────────────────────────────────────────────────
-CMD ["sh", "-c", "streamlit run app/main.py --server.port=${PORT:-8501} --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false"]
+CMD ["sh", "-c", "exec python -m streamlit run app/main.py --server.port=${PORT:-8501} --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false --browser.gatherUsageStats=false"]

@@ -1,7 +1,7 @@
 """Configuration loader and directory manager for the Sandbox Data Foundation."""
 
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 import yaml
 
 import os
