@@ -1,0 +1,13 @@
+{
+  "completeness": {
+    "height_pct": 95.0,
+    "weight_pct": 92.0,
+    "dob_pct": 98.0
+  },
+  "ranges": {
+    "height_min_m": 1.7,
+    "height_max_m": 2.1,
+    "weight_min_kg": 60.0,
+    "weight_max_kg": 110.0
+  }
+}

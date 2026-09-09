@@ -1,0 +1,31 @@
+# ==============================================================================
+# RHEINLAND FALCONS BASKETBALL — DOCKER COMPOSE
+# ==============================================================================
+# Usage:
+#   docker compose up --build        # build & start
+#   docker compose up -d             # detached
+#   docker compose down              # stop & remove
+# ==============================================================================
+
+services:
+  falcons-demo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rheinland-falcons-demo:latest
+    container_name: rheinland_falcons_demo
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8501}:8501"
+    environment:
+      - DEMO_AUTH_PASSWORD=${DEMO_AUTH_PASSWORD:-demotool}
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s

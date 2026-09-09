@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: rheinland-falcons-demo
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    envVars:
+      - key: DEMO_AUTH_PASSWORD
+        value: "demotool"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: STREAMLIT_SERVER_PORT
+        value: "8501"
+      - key: STREAMLIT_SERVER_ADDRESS
+        value: "0.0.0.0"
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: "true"

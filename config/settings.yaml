@@ -1,0 +1,47 @@
+# Configuration for Synthetic Demo Platform
+
+project:
+  name: "basketball-intelligence-demo"
+  pipeline_version: "2.0.0-demo"
+  schema_version: "2.0.0"
+  environment: "demo"
+
+paths:
+  raw_dir: "data/raw"
+  staging_dir: "data/staging"
+  normalized_dir: "data/normalized"
+  validated_dir: "data/validated"
+  derived_dir: "data/derived"
+  analytics_dir: "data/analytics"
+  database_path: "data/basketball_demo.duckdb"
+  logs_dir: "logs"
+  reports_dir: "reports"
+
+reconciliation_tolerances:
+  boxscore_pts_diff_allowed: 0
+  boxscore_reb_diff_allowed: 0
+  boxscore_ast_diff_allowed: 0
+  boxscore_stl_diff_allowed: 0
+  boxscore_blk_diff_allowed: 0
+  boxscore_tov_diff_allowed: 0
+  boxscore_pf_diff_allowed: 0
+  pbp_final_score_pts_diff_allowed: 0
+  allow_team_rebound_discrepancy: true
+  allow_team_turnover_discrepancy: true
+
+entity_resolution:
+  similarity_threshold: 0.85
+  flag_ambiguous_below: 0.90
+  auto_match_exact_only: false
+
+source_precedence:
+  game_score:
+    - "BOXSCORE"
+    - "PBP"
+    - "VIDEO"
+  player_statistics:
+    - "BOXSCORE"
+    - "PBP"
+  shot_locations:
+    - "PBP"
+    - "VIDEO"

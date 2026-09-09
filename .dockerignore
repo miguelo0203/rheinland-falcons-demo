@@ -1,0 +1,57 @@
+# ==============================================================================
+# RHEINLAND FALCONS — DOCKER BUILD CONTEXT EXCLUSIONS
+# ==============================================================================
+
+# Git
+.git
+.gitignore
+
+# Python caches
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+.coverage
+htmlcov
+
+# Environment & secrets (injected at runtime, not baked in)
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets.toml.example
+
+# Scratch, logs, reports
+scratch/
+tmp/
+logs/
+reports/
+
+# Tests (not needed in production image)
+tests/
+
+# Intermediate data directories (not needed — derived + normalized are copied explicitly)
+data/raw/
+data/staging/
+data/validated/
+data/operations/
+data/analytics/
+data/inbox/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentation (not needed in container)
+*.md
+docs/
+
+# Backups
+backups/
+*.zip
+*.bak
+*.tmp
+*.swp

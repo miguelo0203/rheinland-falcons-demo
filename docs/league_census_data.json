@@ -1,0 +1,1227 @@
+{
+  "2025": {
+    "season_id": 2025,
+    "total_matches": 604,
+    "teams_count": 56,
+    "stage_counts": {
+      "Hauptrunde": 120,
+      "Vorrunde": 169,
+      "Relegation": 178,
+      "PO-1/4 Finale": 24,
+      "PO-1/8 Finale": 47,
+      "Playdowns": 36,
+      "PO-1/2 Finale": 9,
+      "Playdowns Runde 2": 18,
+      "TOP4 Halbfinale": 2,
+      "TOP4 Finale": 1
+    },
+    "team_counts": {
+      "2113": {
+        "total": 25,
+        "regular": 17,
+        "playoffs": 8,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2089": {
+        "total": 22,
+        "regular": 16,
+        "playoffs": 6,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2071": {
+        "total": 24,
+        "regular": 16,
+        "playoffs": 8,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2108": {
+        "total": 22,
+        "regular": 16,
+        "playoffs": 6,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2069": {
+        "total": 22,
+        "regular": 16,
+        "playoffs": 6,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2005": {
+        "total": 26,
+        "regular": 17,
+        "playoffs": 9,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2084": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2110": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2000": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2117": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2060": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2076": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2007": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2129": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2015": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2014": {
+        "total": 26,
+        "regular": 17,
+        "playoffs": 9,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2096": {
+        "total": 20,
+        "regular": 17,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2018": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2059": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2073": {
+        "total": 21,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 15,
+        "completed": 0
+      },
+      "2017": {
+        "total": 21,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 12,
+        "completed": 0
+      },
+      "2020": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2123": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2112": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2009": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2131": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2077": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2053": {
+        "total": 22,
+        "regular": 16,
+        "playoffs": 6,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2023": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2122": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2028": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2027": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2106": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2130": {
+        "total": 26,
+        "regular": 18,
+        "playoffs": 8,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2061": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2049": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2029": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2101": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2097": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2109": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2114": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2031": {
+        "total": 22,
+        "regular": 16,
+        "playoffs": 6,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2052": {
+        "total": 24,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 18,
+        "completed": 0
+      },
+      "2100": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2051": {
+        "total": 21,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 15,
+        "completed": 0
+      },
+      "2048": {
+        "total": 24,
+        "regular": 16,
+        "playoffs": 8,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2120": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2040": {
+        "total": 21,
+        "regular": 16,
+        "playoffs": 5,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2054": {
+        "total": 22,
+        "regular": 16,
+        "playoffs": 6,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2074": {
+        "total": 22,
+        "regular": 16,
+        "playoffs": 6,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2102": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 14,
+        "completed": 0
+      },
+      "2045": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2042": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2087": {
+        "total": 23,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2058": {
+        "total": 24,
+        "regular": 16,
+        "playoffs": 8,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2067": {
+        "total": 26,
+        "regular": 18,
+        "playoffs": 8,
+        "relegation": 0,
+        "completed": 0
+      }
+    }
+  },
+  "2024": {
+    "season_id": 2024,
+    "total_matches": 536,
+    "teams_count": 56,
+    "stage_counts": {
+      "Hauptrunde": 120,
+      "Vorrunde": 168,
+      "Relegation": 176,
+      "QU-Runde": 24,
+      "PO-Playins": 48
+    },
+    "team_counts": {
+      "2076": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2113": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2009": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2069": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2071": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2005": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2006": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2084": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2121": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2089": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2106": {
+        "total": 26,
+        "regular": 9,
+        "playoffs": 0,
+        "relegation": 17,
+        "completed": 0
+      },
+      "2060": {
+        "total": 23,
+        "regular": 9,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2022": {
+        "total": 8,
+        "regular": 3,
+        "playoffs": 0,
+        "relegation": 5,
+        "completed": 0
+      },
+      "2007": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2059": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2117": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2110": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2096": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2108": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2014": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2018": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2123": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2073": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2053": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2017": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2112": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2077": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2020": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2027": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2061": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2029": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2049": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2122": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2028": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2023": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2054": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2101": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2100": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2114": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2051": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2052": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2031": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2097": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2109": {
+        "total": 20,
+        "regular": 6,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2036": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2042": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2041": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2120": {
+        "total": 19,
+        "regular": 16,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2040": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2118": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2067": {
+        "total": 23,
+        "regular": 9,
+        "playoffs": 3,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2074": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2087": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2102": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2045": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2058": {
+        "total": 22,
+        "regular": 19,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      }
+    }
+  },
+  "2023": {
+    "season_id": 2023,
+    "total_matches": 515,
+    "teams_count": 56,
+    "stage_counts": {
+      "Hauptrunde": 120,
+      "Vorrunde": 168,
+      "Relegation": 176,
+      "PO-1/2 Finale": 2,
+      "PO-Finale": 1,
+      "QU-Runde": 16,
+      "PO-Playins": 32
+    },
+    "team_counts": {
+      "2071": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2005": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2106": {
+        "total": 26,
+        "regular": 19,
+        "playoffs": 2,
+        "relegation": 5,
+        "completed": 0
+      },
+      "2089": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2007": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2121": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2113": {
+        "total": 23,
+        "regular": 8,
+        "playoffs": 4,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2084": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2094": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2006": {
+        "total": 19,
+        "regular": 6,
+        "playoffs": 2,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2122": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2112": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2022": {
+        "total": 9,
+        "regular": 3,
+        "playoffs": 0,
+        "relegation": 6,
+        "completed": 0
+      },
+      "2076": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2015": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2110": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2014": {
+        "total": 22,
+        "regular": 18,
+        "playoffs": 4,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2059": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2117": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2096": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2108": {
+        "total": 19,
+        "regular": 6,
+        "playoffs": 2,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2053": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2073": {
+        "total": 19,
+        "regular": 6,
+        "playoffs": 2,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2018": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2009": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2077": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2020": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2017": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2027": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2049": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2028": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2061": {
+        "total": 19,
+        "regular": 6,
+        "playoffs": 2,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2050": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2114": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2023": {
+        "total": 19,
+        "regular": 6,
+        "playoffs": 2,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2054": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2051": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2101": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2031": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2048": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2052": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2100": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2040": {
+        "total": 21,
+        "regular": 18,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2029": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2041": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2097": {
+        "total": 18,
+        "regular": 16,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2036": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2109": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2098": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2087": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2067": {
+        "total": 21,
+        "regular": 18,
+        "playoffs": 3,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2042": {
+        "total": 19,
+        "regular": 6,
+        "playoffs": 2,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2074": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2058": {
+        "total": 17,
+        "regular": 6,
+        "playoffs": 0,
+        "relegation": 11,
+        "completed": 0
+      },
+      "2045": {
+        "total": 20,
+        "regular": 18,
+        "playoffs": 2,
+        "relegation": 0,
+        "completed": 0
+      },
+      "2118": {
+        "total": 19,
+        "regular": 6,
+        "playoffs": 2,
+        "relegation": 11,
+        "completed": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+# ==============================================================================
+# RHEINLAND FALCONS BASKETBALL — DEPLOYMENT SAFE .GITIGNORE
+# ==============================================================================
+
+# Secrets and credentials (NEVER COMMIT REAL SECRETS)
+.streamlit/secrets.toml
+secrets.toml
+*.env
+.env
+.env.*
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local/intermediate data and scraper artifacts
+data/raw/
+data/staging/
+data/validated/
+data/operations/
+data/analytics/
+data/inbox/
+logs/
+reports/
+
+# Temporary and scratch directories
+scratch/
+tmp/
+*.tmp
+*.bak
+*.swp
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude large raw videos, but keep synthetic demo match
+*.mov
+*.mkv
+*.avi
+*.webm
+*.flv
+data/video/*
+!data/video/demo_tactical_match.mp4
+!data/video/.gitkeep

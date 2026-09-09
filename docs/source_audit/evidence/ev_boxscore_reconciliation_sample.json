@@ -1,0 +1,32 @@
+[
+  {
+    "game_id": 9995585,
+    "all_invariants_pass": true,
+    "team_a_pts": 86,
+    "team_b_pts": 73
+  },
+  {
+    "game_id": 9995586,
+    "all_invariants_pass": true,
+    "team_a_pts": 80,
+    "team_b_pts": 75
+  },
+  {
+    "game_id": 9995587,
+    "all_invariants_pass": true,
+    "team_a_pts": 92,
+    "team_b_pts": 88
+  },
+  {
+    "game_id": 9995588,
+    "all_invariants_pass": true,
+    "team_a_pts": 70,
+    "team_b_pts": 65
+  },
+  {
+    "game_id": 9995589,
+    "all_invariants_pass": true,
+    "team_a_pts": 84,
+    "team_b_pts": 78
+  }
+]
